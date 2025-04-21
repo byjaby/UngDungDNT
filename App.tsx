@@ -8,6 +8,7 @@ import FlexBox from './LAB1/project5';
 import FlexBox2 from './LAB1/project6';
 import FormTest from './LAB1/project7';
 import ListName from './LAB1/project8';
+import FormLogin from './Buoi3/FormLogin';
 
 const App = () => {
   return (
@@ -18,7 +19,8 @@ const App = () => {
     //<FlexBox/>
     //<FlexBox2/>
     //<FormTest/>
-    <ListName/>
+    //<ListName/>
+    <FormLogin/>
   );
 };
 
