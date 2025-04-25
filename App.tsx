@@ -9,6 +9,7 @@ import FlexBox2 from './LAB1/project6';
 import FormTest from './LAB1/project7';
 import ListName from './LAB1/project8';
 import FormLogin from './Buoi3/FormLogin';
+import Calculator from './LAB1/Calculator';
 
 const App = () => {
   return (
@@ -20,7 +21,8 @@ const App = () => {
     //<FlexBox2/>
     //<FormTest/>
     //<ListName/>
-    <FormLogin/>
+    //<FormLogin/>
+    <Calculator/>
   );
 };
 
