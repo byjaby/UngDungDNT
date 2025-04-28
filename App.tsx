@@ -10,6 +10,7 @@ import FormTest from './LAB1/project7';
 import ListName from './LAB1/project8';
 import FormLogin from './Buoi3/FormLogin';
 import Calculator from './LAB1/Calculator';
+import TabNavigator from './LAB2/components/routers';
 
 const App = () => {
   return (
@@ -22,7 +23,8 @@ const App = () => {
     //<FormTest/>
     //<ListName/>
     //<FormLogin/>
-    <Calculator/>
+    //<Calculator/>
+    <TabNavigator />
   );
 };
 
