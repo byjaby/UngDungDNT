@@ -11,6 +11,13 @@ import ListName from './LAB1/project8';
 import FormLogin from './Buoi3/FormLogin';
 import Calculator from './LAB1/Calculator';
 import TabNavigator from './LAB2/components/routers';
+import Index from './Buoi4/Index';
+import MyDrawer from './Buoi4/MyDrawer';
+import { NavigationContainer } from '@react-navigation/native';
+import { enableScreens, enableFreeze } from 'react-native-screens';
+
+enableScreens();   
+enableFreeze(true); 
 
 const App = () => {
   return (
@@ -24,7 +31,11 @@ const App = () => {
     //<ListName/>
     //<FormLogin/>
     //<Calculator/>
-    <TabNavigator />
+    //<TabNavigator />
+    <Index/>
+    /*<NavigationContainer>
+      <MyDrawer/>
+    </NavigationContainer>*/
   );
 };
 
